@@ -14142,6 +14142,10 @@ Switches electronic signals</description>
 <part name="D3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value="200mA/100V/1V"/>
 <part name="D4" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value="200mA/100V/1V"/>
 <part name="SV2" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML16LE" device="" package3d_urn="urn:adsk.eagle:package:8682/1"/>
+<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14255,37 +14259,37 @@ Switches electronic signals</description>
 <instance part="SUPPLY6" gate="GND" x="223.52" y="55.88" smashed="yes">
 <attribute name="VALUE" x="221.615" y="52.705" size="1.778" layer="96"/>
 </instance>
-<instance part="Q1" gate="NMOS" x="203.2" y="236.22" smashed="yes">
-<attribute name="NAME" x="208.28" y="236.22" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="208.28" y="233.68" size="1.778" layer="96" font="vector"/>
+<instance part="Q1" gate="NMOS" x="200.66" y="241.3" smashed="yes">
+<attribute name="NAME" x="205.74" y="241.3" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="205.74" y="238.76" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="Q2" gate="NMOS" x="203.2" y="213.36" smashed="yes">
-<attribute name="NAME" x="208.28" y="213.36" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="208.28" y="210.82" size="1.778" layer="96" font="vector"/>
+<instance part="Q2" gate="NMOS" x="223.52" y="220.98" smashed="yes">
+<attribute name="NAME" x="228.6" y="220.98" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="228.6" y="218.44" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="Q3" gate="NMOS" x="203.2" y="193.04" smashed="yes">
-<attribute name="NAME" x="208.28" y="193.04" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="208.28" y="190.5" size="1.778" layer="96" font="vector"/>
+<instance part="Q3" gate="NMOS" x="200.66" y="200.66" smashed="yes">
+<attribute name="NAME" x="205.74" y="200.66" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="205.74" y="198.12" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="Q4" gate="NMOS" x="203.2" y="172.72" smashed="yes">
-<attribute name="NAME" x="208.28" y="172.72" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="208.28" y="170.18" size="1.778" layer="96" font="vector"/>
+<instance part="Q4" gate="NMOS" x="223.52" y="180.34" smashed="yes">
+<attribute name="NAME" x="228.6" y="180.34" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="228.6" y="177.8" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="D1" gate="G$1" x="246.38" y="236.22" smashed="yes">
-<attribute name="NAME" x="243.84" y="238.252" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="243.84" y="234.188" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="D1" gate="G$1" x="208.28" y="248.92" smashed="yes">
+<attribute name="NAME" x="205.74" y="250.952" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="205.74" y="246.888" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="D2" gate="G$1" x="248.92" y="218.44" smashed="yes">
-<attribute name="NAME" x="246.38" y="220.472" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="246.38" y="216.408" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="D2" gate="G$1" x="231.14" y="228.6" smashed="yes">
+<attribute name="NAME" x="228.6" y="230.632" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="228.6" y="226.568" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="D3" gate="G$1" x="246.38" y="195.58" smashed="yes">
-<attribute name="NAME" x="243.84" y="197.612" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="243.84" y="193.548" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="D3" gate="G$1" x="208.28" y="208.28" smashed="yes">
+<attribute name="NAME" x="205.74" y="210.312" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="205.74" y="206.248" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="D4" gate="G$1" x="246.38" y="172.72" smashed="yes">
-<attribute name="NAME" x="243.84" y="174.752" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="243.84" y="170.688" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="D4" gate="G$1" x="231.14" y="187.96" smashed="yes">
+<attribute name="NAME" x="228.6" y="189.992" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="228.6" y="185.928" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="SV2" gate="-1" x="83.82" y="241.3" smashed="yes">
 <attribute name="NAME" x="86.36" y="240.538" size="1.778" layer="95"/>
@@ -14351,6 +14355,18 @@ Switches electronic signals</description>
 <attribute name="NAME" x="106.68" y="204.978" size="1.778" layer="95"/>
 <attribute name="VALUE" x="103.886" y="202.819" size="1.778" layer="96"/>
 </instance>
+<instance part="SUPPLY1" gate="GND" x="203.2" y="231.14" smashed="yes">
+<attribute name="VALUE" x="201.295" y="227.965" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY3" gate="GND" x="226.06" y="210.82" smashed="yes">
+<attribute name="VALUE" x="224.155" y="207.645" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY7" gate="GND" x="203.2" y="190.5" smashed="yes">
+<attribute name="VALUE" x="201.295" y="187.325" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY8" gate="GND" x="226.06" y="170.18" smashed="yes">
+<attribute name="VALUE" x="224.155" y="167.005" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14394,33 +14410,73 @@ Switches electronic signals</description>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 <wire x1="228.6" y1="66.04" x2="228.6" y2="58.42" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="Q1" gate="NMOS" pin="S"/>
+<wire x1="203.2" y1="236.22" x2="203.2" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="SUPPLY1" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="Q2" gate="NMOS" pin="S"/>
+<wire x1="226.06" y1="215.9" x2="226.06" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="SUPPLY3" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="Q3" gate="NMOS" pin="S"/>
+<wire x1="203.2" y1="195.58" x2="203.2" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="SUPPLY7" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="Q4" gate="NMOS" pin="S"/>
+<wire x1="226.06" y1="175.26" x2="226.06" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="SUPPLY8" gate="GND" pin="GND"/>
+</segment>
 </net>
-<net name="GB12" class="0">
+<net name="DTCT0" class="0">
 <segment>
 <pinref part="SV1" gate="-2" pin="S"/>
 <wire x1="165.1" y1="238.76" x2="162.56" y2="238.76" width="0.1524" layer="91"/>
 <label x="162.56" y="238.76" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="Q1" gate="NMOS" pin="G"/>
+<wire x1="195.58" y1="238.76" x2="193.04" y2="238.76" width="0.1524" layer="91"/>
+<label x="193.04" y="238.76" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
-<net name="GB13" class="0">
+<net name="DTCT1" class="0">
 <segment>
 <pinref part="SV1" gate="-6" pin="S"/>
 <wire x1="165.1" y1="218.44" x2="162.56" y2="218.44" width="0.1524" layer="91"/>
 <label x="162.56" y="218.44" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="Q2" gate="NMOS" pin="G"/>
+<wire x1="218.44" y1="218.44" x2="215.9" y2="218.44" width="0.1524" layer="91"/>
+<label x="215.9" y="218.44" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
-<net name="GB14" class="0">
+<net name="DTCT2" class="0">
 <segment>
 <pinref part="SV1" gate="-10" pin="S"/>
 <wire x1="165.1" y1="198.12" x2="162.56" y2="198.12" width="0.1524" layer="91"/>
 <label x="162.56" y="198.12" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="Q3" gate="NMOS" pin="G"/>
+<wire x1="195.58" y1="198.12" x2="193.04" y2="198.12" width="0.1524" layer="91"/>
+<label x="193.04" y="198.12" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
-<net name="GB15" class="0">
+<net name="DTCT3" class="0">
 <segment>
 <pinref part="SV1" gate="-14" pin="S"/>
 <wire x1="165.1" y1="177.8" x2="162.56" y2="177.8" width="0.1524" layer="91"/>
 <label x="162.56" y="177.8" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="Q4" gate="NMOS" pin="G"/>
+<wire x1="218.44" y1="177.8" x2="215.9" y2="177.8" width="0.1524" layer="91"/>
+<label x="215.9" y="177.8" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -14477,6 +14533,98 @@ Switches electronic signals</description>
 <pinref part="SV1" gate="-16" pin="S"/>
 <wire x1="165.1" y1="167.64" x2="162.56" y2="167.64" width="0.1524" layer="91"/>
 <label x="162.56" y="167.64" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="210.82" y1="248.92" x2="213.36" y2="248.92" width="0.1524" layer="91"/>
+<label x="213.36" y="248.92" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="233.68" y1="228.6" x2="236.22" y2="228.6" width="0.1524" layer="91"/>
+<label x="236.22" y="228.6" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="210.82" y1="208.28" x2="213.36" y2="208.28" width="0.1524" layer="91"/>
+<label x="213.36" y="208.28" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D4" gate="G$1" pin="C"/>
+<wire x1="233.68" y1="187.96" x2="236.22" y2="187.96" width="0.1524" layer="91"/>
+<label x="236.22" y="187.96" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ANLG0" class="0">
+<segment>
+<pinref part="SV1" gate="-3" pin="S"/>
+<wire x1="165.1" y1="233.68" x2="162.56" y2="233.68" width="0.1524" layer="91"/>
+<label x="162.56" y="233.68" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ANLG1" class="0">
+<segment>
+<pinref part="SV1" gate="-7" pin="S"/>
+<wire x1="165.1" y1="213.36" x2="162.56" y2="213.36" width="0.1524" layer="91"/>
+<label x="162.56" y="213.36" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ANLG2" class="0">
+<segment>
+<pinref part="SV1" gate="-11" pin="S"/>
+<wire x1="165.1" y1="193.04" x2="162.56" y2="193.04" width="0.1524" layer="91"/>
+<label x="162.56" y="193.04" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ANLG3" class="0">
+<segment>
+<pinref part="SV1" gate="-15" pin="S"/>
+<wire x1="165.1" y1="172.72" x2="162.56" y2="172.72" width="0.1524" layer="91"/>
+<label x="162.56" y="172.72" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="DRVR0" class="0">
+<segment>
+<pinref part="Q1" gate="NMOS" pin="D"/>
+<wire x1="203.2" y1="246.38" x2="203.2" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="248.92" x2="200.66" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="205.74" y1="248.92" x2="203.2" y2="248.92" width="0.1524" layer="91"/>
+<junction x="203.2" y="248.92"/>
+<label x="200.66" y="248.92" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="DRVR1" class="0">
+<segment>
+<pinref part="Q2" gate="NMOS" pin="D"/>
+<wire x1="226.06" y1="226.06" x2="226.06" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="228.6" x2="226.06" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="228.6" x2="228.6" y2="228.6" width="0.1524" layer="91"/>
+<junction x="226.06" y="228.6"/>
+<label x="223.52" y="228.6" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="DRVR2" class="0">
+<segment>
+<pinref part="Q3" gate="NMOS" pin="D"/>
+<wire x1="203.2" y1="205.74" x2="203.2" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="208.28" x2="203.2" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="208.28" x2="205.74" y2="208.28" width="0.1524" layer="91"/>
+<junction x="203.2" y="208.28"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<label x="200.66" y="208.28" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="DRVR3" class="0">
+<segment>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="228.6" y1="187.96" x2="226.06" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="Q4" gate="NMOS" pin="D"/>
+<wire x1="226.06" y1="187.96" x2="223.52" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="185.42" x2="226.06" y2="187.96" width="0.1524" layer="91"/>
+<junction x="226.06" y="187.96"/>
+<label x="223.52" y="187.96" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

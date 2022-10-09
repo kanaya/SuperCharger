@@ -2692,10 +2692,10 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="65" y="19" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="62.8664" y="16.6886" size="0.9906" layer="27" ratio="10"/>
 </element>
-<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="LED3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="" x="3" y="21" smashed="yes" rot="R270">
-<attribute name="NAME" x="6" y="21" size="1" layer="25" ratio="10" rot="R90" align="center"/>
-<attribute name="POPULARITY" value="97" x="3" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="1.349" y="19.095" size="1.27" layer="27" ratio="10" rot="R270"/>
+<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="LED3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="" x="18" y="4" smashed="yes" rot="R270">
+<attribute name="NAME" x="21" y="4" size="1" layer="25" ratio="10" rot="R90" align="center"/>
+<attribute name="POPULARITY" value="97" x="18" y="4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="16.349" y="2.095" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="SV1" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML16L" package3d_urn="urn:adsk.eagle:package:8682/1" value="" x="36" y="11" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="36" y="11" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2712,10 +2712,10 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="66" y="16" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="63.8664" y="13.6886" size="0.9906" layer="27" ratio="10"/>
 </element>
-<element name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" package="LED3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="" x="6" y="27" smashed="yes" rot="R270">
-<attribute name="NAME" x="3" y="27" size="1" layer="25" ratio="10" rot="R90" align="center"/>
-<attribute name="POPULARITY" value="97" x="6" y="27" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="4.349" y="25.095" size="1.27" layer="27" ratio="10" rot="R270"/>
+<element name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" package="LED3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="" x="18" y="38" smashed="yes" rot="R270">
+<attribute name="NAME" x="15" y="38" size="1" layer="25" ratio="10" rot="R90" align="center"/>
+<attribute name="POPULARITY" value="97" x="18" y="38" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="16.349" y="36.095" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="" x="62" y="22" smashed="yes">
 <attribute name="NAME" x="62" y="20" size="1" layer="25" ratio="10" align="center"/>
@@ -2729,45 +2729,45 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="67" y="25" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="64.714" y="22.206" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="Q1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="TO220V" package3d_urn="urn:adsk.eagle:package:38447/1" value="60V/32A/35mΩ" x="15" y="18" smashed="yes">
-<attribute name="NAME" x="9.666" y="18.254" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-10060" x="15" y="18" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.334" y="18.254" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<element name="Q1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="TO220V" package3d_urn="urn:adsk.eagle:package:38447/1" value="60V/32A/35mΩ" x="18" y="21" smashed="yes">
+<attribute name="NAME" x="19.666" y="17.254" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PROD_ID" value="TRANS-10060" x="18" y="21" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="23.334" y="21.254" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="Q2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="TO220V" package3d_urn="urn:adsk.eagle:package:38447/1" value="60V/32A/35mΩ" x="27" y="18" smashed="yes">
-<attribute name="NAME" x="21.666" y="18.254" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-10060" x="27" y="18" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="32.334" y="18.254" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<element name="Q2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="TO220V" package3d_urn="urn:adsk.eagle:package:38447/1" value="60V/32A/35mΩ" x="30" y="21" smashed="yes">
+<attribute name="NAME" x="30.666" y="17.254" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PROD_ID" value="TRANS-10060" x="30" y="21" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="35.334" y="21.254" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="Q3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="TO220V" package3d_urn="urn:adsk.eagle:package:38447/1" value="60V/32A/35mΩ" x="40" y="18" smashed="yes">
-<attribute name="NAME" x="34.666" y="18.254" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-10060" x="40" y="18" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="45.334" y="18.254" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<element name="Q3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="TO220V" package3d_urn="urn:adsk.eagle:package:38447/1" value="60V/32A/35mΩ" x="42" y="21" smashed="yes">
+<attribute name="NAME" x="41.666" y="18.254" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PROD_ID" value="TRANS-10060" x="42" y="21" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="47.334" y="21.254" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="Q4" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="TO220V" package3d_urn="urn:adsk.eagle:package:38447/1" value="60V/32A/35mΩ" x="52" y="18" smashed="yes">
-<attribute name="NAME" x="46.666" y="18.254" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="TRANS-10060" x="52" y="18" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="57.334" y="18.254" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<element name="Q4" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="TO220V" package3d_urn="urn:adsk.eagle:package:38447/1" value="60V/32A/35mΩ" x="54" y="21" smashed="yes">
+<attribute name="NAME" x="52.666" y="17.254" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PROD_ID" value="TRANS-10060" x="54" y="21" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="59.334" y="21.254" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="DIODE-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value="200mA/100V/1V" x="15" y="24" smashed="yes">
-<attribute name="NAME" x="15" y="25.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-08378" x="15" y="24" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="15" y="22.857" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="DIODE-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value="200mA/100V/1V" x="18" y="26" smashed="yes">
+<attribute name="NAME" x="18" y="27.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-08378" x="18" y="26" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="18" y="24.857" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="DIODE-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value="200mA/100V/1V" x="27" y="24" smashed="yes">
-<attribute name="NAME" x="27" y="25.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-08378" x="27" y="24" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="27" y="22.857" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="DIODE-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value="200mA/100V/1V" x="30" y="26" smashed="yes">
+<attribute name="NAME" x="30" y="27.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-08378" x="30" y="26" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="30" y="24.857" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="D3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="DIODE-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value="200mA/100V/1V" x="40" y="24" smashed="yes">
-<attribute name="NAME" x="40" y="25.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-08378" x="40" y="24" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="40" y="22.857" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="D3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="DIODE-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value="200mA/100V/1V" x="42" y="26" smashed="yes">
+<attribute name="NAME" x="42" y="27.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-08378" x="42" y="26" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="42" y="24.857" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="D4" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="DIODE-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value="200mA/100V/1V" x="52" y="24" smashed="yes">
-<attribute name="NAME" x="52" y="25.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-08378" x="52" y="24" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="52" y="22.857" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="D4" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="DIODE-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value="200mA/100V/1V" x="54" y="26" smashed="yes">
+<attribute name="NAME" x="54" y="27.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-08378" x="54" y="26" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="54" y="24.857" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="SV2" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML16L" package3d_urn="urn:adsk.eagle:package:8682/1" value="" x="36" y="31" smashed="yes">
 <attribute name="MF" value="" x="36" y="31" size="1.778" layer="27" display="off"/>
@@ -2789,25 +2789,41 @@ design rules under a new name.</description>
 <contactref element="LED2" pad="K"/>
 <contactref element="C2" pad="2"/>
 <contactref element="C1" pad="2"/>
-<wire x1="63.27" y1="22" x2="3" y2="19.73" width="0" layer="19" extent="1-1"/>
-<wire x1="68.27" y1="25" x2="63.27" y2="22" width="0" layer="19" extent="1-1"/>
-<wire x1="44.89" y1="12.27" x2="68.27" y2="25" width="0" layer="19" extent="1-1"/>
+<contactref element="Q1" pad="3"/>
+<contactref element="Q2" pad="3"/>
+<contactref element="Q3" pad="3"/>
+<contactref element="Q4" pad="3"/>
+<wire x1="63.27" y1="22" x2="68.27" y2="25" width="0" layer="19" extent="1-1"/>
+<wire x1="56.54" y1="21" x2="63.27" y2="22" width="0" layer="19" extent="1-1"/>
+<wire x1="44.54" y1="21" x2="56.54" y2="21" width="0" layer="19" extent="1-1"/>
+<wire x1="44.89" y1="12.27" x2="44.54" y2="21" width="0" layer="19" extent="1-1"/>
 <wire x1="39.81" y1="12.27" x2="44.89" y2="12.27" width="0" layer="19" extent="1-1"/>
 <wire x1="34.73" y1="12.27" x2="39.81" y2="12.27" width="0" layer="19" extent="1-1"/>
 <wire x1="29.65" y1="12.27" x2="34.73" y2="12.27" width="0" layer="19" extent="1-1"/>
-<wire x1="6" y1="25.73" x2="68.27" y2="25" width="0" layer="19" extent="1-1"/>
+<wire x1="32.54" y1="21" x2="34.73" y2="12.27" width="0" layer="19" extent="1-1"/>
+<wire x1="20.54" y1="21" x2="32.54" y2="21" width="0" layer="19" extent="1-1"/>
+<wire x1="18" y1="2.73" x2="29.65" y2="12.27" width="0" layer="19" extent="1-1"/>
+<wire x1="18" y1="36.73" x2="20.54" y2="21" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="GB12">
+<signal name="DTCT0">
 <contactref element="SV1" pad="2"/>
+<contactref element="Q1" pad="1"/>
+<wire x1="15.46" y1="21" x2="44.89" y2="9.73" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="GB13">
+<signal name="DTCT1">
 <contactref element="SV1" pad="6"/>
+<contactref element="Q2" pad="1"/>
+<wire x1="27.46" y1="21" x2="39.81" y2="9.73" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="GB14">
+<signal name="DTCT2">
 <contactref element="SV1" pad="10"/>
+<contactref element="Q3" pad="1"/>
+<wire x1="34.73" y1="9.73" x2="39.46" y2="21" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="GB15">
+<signal name="DTCT3">
 <contactref element="SV1" pad="14"/>
+<contactref element="Q4" pad="1"/>
+<wire x1="29.65" y1="9.73" x2="51.46" y2="21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="R1" pad="1"/>
@@ -2817,12 +2833,12 @@ design rules under a new name.</description>
 <signal name="VCCLED">
 <contactref element="R1" pad="2"/>
 <contactref element="LED1" pad="A"/>
-<wire x1="67.54" y1="19" x2="3" y2="22.27" width="0" layer="19" extent="1-1"/>
+<wire x1="67.54" y1="19" x2="18" y2="5.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC2LED">
 <contactref element="LED2" pad="A"/>
 <contactref element="R2" pad="2"/>
-<wire x1="6" y1="28.27" x2="68.54" y2="16" width="0" layer="19" extent="1-1"/>
+<wire x1="18" y1="39.27" x2="68.54" y2="16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC/2">
 <contactref element="R2" pad="1"/>
@@ -2831,11 +2847,51 @@ design rules under a new name.</description>
 <contactref element="SV1" pad="12"/>
 <contactref element="SV1" pad="16"/>
 <contactref element="C2" pad="1"/>
+<contactref element="D1" pad="C"/>
+<contactref element="D2" pad="C"/>
+<contactref element="D3" pad="C"/>
+<contactref element="D4" pad="C"/>
+<wire x1="57.81" y1="26" x2="65.73" y2="25" width="0" layer="19" extent="1-1"/>
 <wire x1="63.46" y1="16" x2="65.73" y2="25" width="0" layer="19" extent="1-1"/>
-<wire x1="42.35" y1="9.73" x2="65.73" y2="25" width="0" layer="19" extent="1-1"/>
-<wire x1="37.27" y1="9.73" x2="42.35" y2="9.73" width="0" layer="19" extent="1-1"/>
-<wire x1="32.19" y1="9.73" x2="37.27" y2="9.73" width="0" layer="19" extent="1-1"/>
+<wire x1="45.81" y1="26" x2="57.81" y2="26" width="0" layer="19" extent="1-1"/>
+<wire x1="33.81" y1="26" x2="45.81" y2="26" width="0" layer="19" extent="1-1"/>
+<wire x1="21.81" y1="26" x2="33.81" y2="26" width="0" layer="19" extent="1-1"/>
+<wire x1="32.19" y1="9.73" x2="33.81" y2="26" width="0" layer="19" extent="1-1"/>
+<wire x1="37.27" y1="9.73" x2="32.19" y2="9.73" width="0" layer="19" extent="1-1"/>
+<wire x1="42.35" y1="9.73" x2="37.27" y2="9.73" width="0" layer="19" extent="1-1"/>
 <wire x1="27.11" y1="9.73" x2="32.19" y2="9.73" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ANLG0">
+<contactref element="SV1" pad="3"/>
+</signal>
+<signal name="ANLG1">
+<contactref element="SV1" pad="7"/>
+</signal>
+<signal name="ANLG2">
+<contactref element="SV1" pad="11"/>
+</signal>
+<signal name="ANLG3">
+<contactref element="SV1" pad="15"/>
+</signal>
+<signal name="DRVR0">
+<contactref element="Q1" pad="2"/>
+<contactref element="D1" pad="A"/>
+<wire x1="14.19" y1="26" x2="18" y2="21" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DRVR1">
+<contactref element="Q2" pad="2"/>
+<contactref element="D2" pad="A"/>
+<wire x1="30" y1="21" x2="26.19" y2="26" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DRVR2">
+<contactref element="Q3" pad="2"/>
+<contactref element="D3" pad="A"/>
+<wire x1="42" y1="21" x2="38.19" y2="26" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DRVR3">
+<contactref element="D4" pad="A"/>
+<contactref element="Q4" pad="2"/>
+<wire x1="54" y1="21" x2="50.19" y2="26" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
