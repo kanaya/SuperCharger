@@ -218,6 +218,7 @@ PF8-2-5</text>
 <text x="10" y="1" size="1" layer="25" align="center-left">GeekPort II</text>
 <text x="51" y="41" size="1" layer="25" rot="R90" align="center-right">POWERED&gt;&gt;</text>
 <text x="21" y="41" size="1" layer="25" rot="R90" align="center-right">POWERED&gt;&gt;</text>
+<text x="12" y="22" size="1" layer="25" align="center-right">B30N06-4</text>
 </plain>
 <libraries>
 <library name="con-ml" urn="urn:adsk.eagle:library:164">
